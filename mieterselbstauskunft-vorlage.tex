@@ -1,0 +1,66 @@
+\documentclass[a4paper,12pt,oneside,openany]{report}
+
+	% ----- German -----
+	\usepackage[ngerman]{babel}	% Neue deutsche Rechtschreibung
+
+	% ----- Font -----
+	\usepackage[utf8]{inputenc} % Kodierung des Eingabezeichensatzes
+	\usepackage[T1]{fontenc}    % 8-bit Kodierung
+	\usepackage{ae}             % Vektor Fonts
+
+	% ----- Layout / Design -----
+	\usepackage{parskip}		% Entfernung der Einrückung eines Absatzes
+	\usepackage{float}          % Besseres Float-Management
+	\usepackage{geometry}       % Seitenlayout
+	\geometry{a4paper, portrait, inner=3.0cm, outer=3.0cm, tmargin=2.5cm, bmargin=2.5cm}
+	\pagestyle{empty}
+
+	% ----- Tables -----
+	\usepackage{multicol}		% Mehrspaltiger Text
+
+	% ----- Other -----
+	\usepackage{enumitem}       % Aufzählungen
+	\usepackage{mathtools}      % Mathe-Pakete
+
+
+\begin{document}
+
+	{\huge{Mieterselbstauskunft}}
+
+	\bigbreak
+	\hrulefill
+
+	\begin{description}[align=right,leftmargin=!,labelwidth=\widthof{\bfseries Monatliches Nettogehalt:}]
+		\setlength{\itemsep}{1pt}
+		\item[Mietobjekt:] ???
+		\item[Mietbeginn:] ???
+		\item[]
+		\item[Name:] ???
+		\item[Anschrift:] ???
+		\item[Geburt:] ???
+		\item[Familienstand:] ???
+		\item[Kinder:] ???
+		\item[Haustiere:] ???
+		\item[Rauchverhalten:] ???
+		\item[E-Mail:] ???
+		\item[Telefon:] ???
+		\item[]
+		\item[Aktueller Vermieter:] ???
+		\item[Mietverhältnis:] ???
+		\item[]
+		\item[Arbeitgeber:] ???
+		\item[Beruf:] ???
+		\item[Angestellt seit:] ???
+		\item[Monatliches Nettogehalt:] ???
+	\end{description}
+
+	\hrulefill
+	\bigbreak
+
+	\begin{description}[align=right,leftmargin=!,labelwidth=\widthof{\bfseries Unterschrift:}]
+		\setlength{\itemsep}{5pt}
+		\item[Ort, Datum:] ???, dd.mm.yyy
+		\item[Unterschrift:]
+	\end{description}
+
+\end{document}
